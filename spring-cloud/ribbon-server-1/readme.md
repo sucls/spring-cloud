@@ -23,4 +23,3 @@ HystrixDashboard仪表盘
  -> http://localhost:8764/hello?name=tom
  
  
- 
