@@ -24,8 +24,8 @@ http://localhost:8760访问
     最好是禁用默认的配置，完全通过自定义的zuul路由完成服务导向
 #7 
     config server访问配置文件内容
-    /{application}/{profile}[/{label}]
-    /{application}-{profile}.yml
-    /{label}/{application}-{profile}.yml
-    /{application}-{profile}.properties
-    /{label}/{application}-{profile}.properties
+    /{name}/{profile}[/{label}] ->
+    /{name}-{profile}.yml
+    /{label}/{name}-{profile}.yml
+    /{name}-{profile}.properties
+    /{label}/{name}-{profile}.properties
