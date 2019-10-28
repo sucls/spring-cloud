@@ -31,3 +31,5 @@ http://localhost:8760访问
     /{label}/{application}-{profile}.properties
 #8
     高可用配置中心时，客户端使用bootstrap.application/yml，如果eureka的注册部分如果写在application中，将无法找到配置服务
+#9
+    配置自动刷新，建议客户端与服务端都配置，记得在github的项目setting中配置Webhooks
