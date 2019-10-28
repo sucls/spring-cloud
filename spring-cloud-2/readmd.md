@@ -29,3 +29,5 @@ http://localhost:8760访问
     /{label}/{application}-{profile}.yml
     /{application}-{profile}.properties
     /{label}/{application}-{profile}.properties
+#8
+    高可用配置中心时，客户端使用bootstrap.application/yml，如果eureka的注册部分如果写在application中，将无法找到配置服务
